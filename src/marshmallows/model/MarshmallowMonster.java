@@ -30,7 +30,8 @@ public class MarshmallowMonster
 	
 	public String toString()
 	{
-		String monsterInfo = "My monster has " + monsterLegs + "legs and its' name is " + monsterName;
+		String monsterInfo = "My monster has " + monsterLegs + " legs and its' name is " + monsterName + " He has " +
+	monsterNoses + " noses, " + monsterEyes + " eyes," + " and " + monsterHair + " Hairs";
 		
 		return monsterInfo;
 	}
