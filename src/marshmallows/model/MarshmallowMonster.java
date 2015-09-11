@@ -2,6 +2,8 @@ package marshmallows.model;
 
 public class MarshmallowMonster
 {
+	private MarshmallowMonster kyleMonster;
+	
 	private String monsterName;
 	private int monsterEyes;
 	private int monsterNoses;
@@ -24,5 +26,12 @@ public class MarshmallowMonster
 		this.monsterNoses = monsterNoses;
 		this.monsterLegs = monsterLegs;
 		this.monsterHair = monsterHair;
+	}
+	
+	public String toString()
+	{
+		String monsterInfo = "My monster has " + monsterLegs + "legs and its' name is " + monsterName;
+		
+		return monsterInfo;
 	}
 }
