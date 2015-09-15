@@ -2,7 +2,7 @@ package marshmallows.model;
 
 public class MarshmallowMonster
 {
-	private MarshmallowMonster kyleMonster;
+	
 	
 	private String monsterName;
 	private int monsterEyes;
@@ -11,7 +11,7 @@ public class MarshmallowMonster
 	private double monsterHair;
 	private boolean monsterBellyButton;
 	
-	private MarshmallowMonster()
+	private MarshmallowMonster()     			
 	{
 		
 	}
@@ -19,14 +19,50 @@ public class MarshmallowMonster
 	public MarshmallowMonster(String monsterName, int monsterEyes, 
 			int monsterNoses, boolean monsterBellyButton,
 			double monsterLegs, double monsterHair)
-	{
+			{
 		this.monsterName = monsterName;
 		this.monsterEyes = monsterEyes;
 		this.monsterBellyButton = monsterBellyButton;
 		this.monsterNoses = monsterNoses;
 		this.monsterLegs = monsterLegs;
 		this.monsterHair = monsterHair;
+			}
+			
+	public String getMonsterName()
+	{
+		return monsterName;
 	}
+	
+	
+	public void setMonsterName(String monsterName)
+	{
+		this.monsterName = monsterName;
+	}
+	
+	public int getMonsterEyes()
+	{
+		return monsterEyes;
+	}
+	
+	public void getMosnterBellyButton(boolean monsterBellyButton)
+	{
+		this.monsterBellyButton = monsterBellyButton;
+	}
+	
+	public void setMonsterNoses(int monsterNoses)
+	{
+		this.monsterNoses = monsterNoses;
+	}
+	public void setMonsterLegs(int monsterLegs)
+	{
+		this.monsterLegs = monsterLegs;
+	}
+	public void setMonsterHair(int monsterHair)
+	{
+		this.monsterHair = monsterHair;
+	}
+	
+	
 	
 	public String toString()
 	{
