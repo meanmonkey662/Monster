@@ -11,6 +11,7 @@ public class MarshmallowMonster
 	private double monsterHair;
 	private boolean monsterBellyButton;
 	
+	
 	private MarshmallowMonster()     			
 	{
 		
@@ -64,7 +65,7 @@ public class MarshmallowMonster
 		this.monsterEyes = monsterEyes;
 	}
 	
-	public void setMosnterBellyButton(boolean monsterBellyButton)
+	public void setMonsterBellyButton(boolean monsterBellyButton)
 	{
 		this.monsterBellyButton = monsterBellyButton;
 	}
@@ -73,11 +74,12 @@ public class MarshmallowMonster
 	{
 		this.monsterNoses = monsterNoses;
 	}
-	public void setMonsterLegs(int monsterLegs)
+	
+	public void setMonsterLegs(double monsterLegs)
 	{
 		this.monsterLegs = monsterLegs;
 	}
-	public void setMonsterHair(int monsterHair)
+	public void setMonsterHair(double monsterHair)
 	{
 		this.monsterHair = monsterHair;
 	}
